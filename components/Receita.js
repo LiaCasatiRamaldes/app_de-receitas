@@ -2,51 +2,30 @@ import * as React from 'react';
 import { Text, View, StyleSheet, Image, SafeAreaView, Button } from 'react-native';
 import { Card } from 'react-native-elements';
 import IconeBotao from './IconeBotao';
+import styles from '../assets/estilo';
+import { useNavigation } from '@react-navigation/native';
+import Receita_conteudo from './Receita_conteudo';
 
 
+// const navigation = useNavigation();
+
+// function handleProfilePress() {
+//   navigation.navigate('Receita_conteudo');
+// }
 
 export default function Receita({nome, uri}) {
+  
   return (
-    <cCard style={styles.card}>
-      <View style={styles.container}>
-        <Image style={styles.img} source={uri} />
-        <Text style={styles.paragraph}>
+    <cCard>
+      <View style={styles.container_receita}>
+        <Image style={styles.img_receita} source={uri} />
+        <Text style={styles.title}>
           {nome}
         </Text>
-        <IconeBotao name="rightcircle" size={35} color="white"/>
+        <IconeBotao name="rightcircle" size={34} color="white" />
       </View>
     </cCard>
   );
 }
 
-const styles = StyleSheet.create({
-  card:{
-    backgroundColor: "#F2911B",
-  },
-  container: {
-    backgroundColor: "#F2911B",
-    flex: 1,
-    height: '100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    paddingHorizontal: 10,
-    
-  },
-  paragraph: {
-    flex: 100,
-    margin: 10,
-    marginBottom: 0,
-    fontSize: 40,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    color: 'white',
-  },
-  img: {
-    padding: 0,
-    height: 100,
-    width: 100,
-    borderRadius: 20,
-  },
 
-});

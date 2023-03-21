@@ -1,0 +1,22 @@
+let listaReceitas = [{nome: "Brownie", 
+              uri : require("./assets/images/brownie.jpeg"), 
+              ingredientes: "*1 xícara de farinha de trigo \n*3 ovos \n*1 e meia xícara de açúcar \n*6 colheres de sopa de chocolate em pó \n*100 gramas de manteiga derretida",
+              modo_de_fazer: "1.Em uma tigela, coloque 1 xícara de farinha de trigo, 1 e meia xícara de açúcar e misture. \n2.Em seguida, adicione 100 gramas de manteiga sem sal derretida e misture novamente. \n3.Depois, acrescente 3 ovos e misture até ficar homogêneo. \n4.Transfira a mistura para uma forma revestida com papel-manteiga. Espalhe para cobrir toda a forma. \n5.Leve ao forno preaquecido a 180 graus Celsius por 30 minutos. \n6.Retire do forno e corte em quadradinhos. \n7.Se quiser, polvilhe com chocolate em pó."},
+              {nome: "Angú à baiana", 
+              uri : require("./assets/images/angu.jpg"), 
+              ingredientes: "*3 copos de fubá \n*500 ml de água \n*Uma pitada de sal \n*500 g de carne moída \n*1/2 pimentão picado \n*Cheiro verde a gosto  \n*1 lata de molho de tomate \n*1 lata de milho verde \n*1 caldo de galinha knorr \n*3 dentes de alho amassado \n*1 colher de óleo \n*200 g de mussarela",
+              modo_de_fazer: "1.Frite a carne moída com o alho amassado. \n2.Coloque o molho de tomate, o cheiro verde, o milho verde, meio knorr, e o pimentão picado. \n3.Deixe ferver até formar um molho bem consistente. \n4.Enquanto ferve faça o angú, misturando a água com o fubá, o óleo, meio caldo knorr e uma pitada de sal. \n5.Deixe ferver bastante até obter um angú bem consistente e cremoso. \n6.Coloque em uma assadeira a mussarela, um pouco do angú ainda quente e o molho que se formou da carne moída por cima do angú. \n7.Depois, coloque mais angú e mussarela e assim até acabar. \n8.Por último, acrescentar o molho de carne moída."},
+              {nome: "Guacamole", 
+              uri : require("./assets/images/guacamole.jpeg"), 
+              ingredientes: "*1 abacate brasileiro médio (ou 4 avocados) \n*1 tomate grande sem sementes \n*Uma pitada de sal \n*1 cebola pequena \n*1 maço de coentro \n*suco de 1 limão grande  \n*azeite extra virgem \n*2 dentes de alho amassado" ,
+              modo_de_fazer:"1.Amasse o abacate com um garfo, acrescente o alho socado, o suco de limão, sal e azeite a gosto e misture como um purê. \n2.Pique a cebola, o tomate e o coentro. Pique bem a pimenta. \n3.Acrescente os ingredientes picados ao purê de abacate. \n4.Sirva com chips, crackers, tacos, no burrito ou mesmo junto com arroz e feijão."},
+              {nome: "Mousse de Maracujá", 
+              uri : require("./assets/images/mousse.jpeg"), 
+              ingredientes: "*1 lata de leite condensado \n*1 lata de creme de leite (com soro) \n*1 xícara do suco de maracujá fruta \n*1/2 xícara de leite \n*1 colher (sobremesa) de gelatina incolor",
+              modo_de_fazer:"1.Bater no liquidificador o leite condensado, o creme de leite e o suco. \n2.Depois dissolver a gelatina no leite quente e misturar com os demais ingredientes no liquidificador batendo por 3 minutos. \n3.Colocar num recipiente e levar à geladeira. \n4.Para enfeitar colocar em cima do mousse sementes do maracujá."},
+              {nome: "Pastel Assado", 
+              uri : require("./assets/images/pastel.jpeg"), 
+              ingredientes: "*1 peito de frango cozido e desfiado \n*1 cenoura média ralada \n*1/2 xícara (chá) de milho verde escorrido \n*1 1/2 xícara (chá) de azeitonas verdes picadas \n*1 1/2 xícara (chá) de queijo de minas frescal picado \n*1/2 xícara (chá) de queijo mussarela ralado \n*Sal e pimenta a gosto \n*3 colheres (sopa) de salsinha picada \n*2 ovos cozidos picados \n*1 pacote de discos de massa de pastel (500g), se preferir podes usar discos de massa folhada para pastel \n*1 ovo para pincelar" ,
+              modo_de_fazer:"1.Em uma tigela funda, misture o peito de frango desfiado, a cenoura ralada, o milho verde, o queijo de minas, o queijo mussarela, as azeitonas, a salsinha picada, e os ovos cozidos. \n2.Misture tudo muito bem e adicione sal e pimenta a seu gosto. \n3.Sobre cada um dos discos de massa, distribua o recheio, dobre ao meio, pincele as bordas com a clara e feche, apertando bem com um garfo. \n4.Coloque os pasteis numa forma ante aderente, untada com manteiga. \n5.Pincele os pasteis com a gema eleve a forma ao forno preaquecido, por uns 20 minutos ou até dourar."} ]
+
+export default listaReceitas;
